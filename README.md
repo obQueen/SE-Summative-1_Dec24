@@ -17,7 +17,7 @@ The Train Line Information Search Application is designed to provide users with 
 
 **Reason for Creating the App**
 
-Providing users with a more advanced search capability for train line information addresses existing limitations in current tools, which often lack flexibility. This application resolves these issue with a modern, intuitive solution. The benefits include:
+Enhancing search capabilities for train line information addresses the shortcomings of current tools, which often lack flexibility and comprehensive functionality. This application provides a modern and intuitive solution to these challenges, offering the following benefits:
 *  Improved Efficiency: By using advanced search capabilities and real-time data, users can access relevant train line information in seconds.
 *  Increased Accuracy: With live updates from trusted APIs, the data is always current, eliminating outdated or incomplete results.
 *  Streamlined Experience: A user-friendly interface reduces the learning curve and ensures effortless navigation for all users.
