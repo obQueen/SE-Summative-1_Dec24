@@ -29,3 +29,64 @@ Enhancing search capabilities for train line information addresses the shortcomi
 ## Deployed App
 
 ## User Documentation
+This web-based tool allows you to search for UK train line information quickly and easily. You can search by line name or route, and even use wildcard searches for more flexible queries.
+
+#### System Requirements
+* A modern web browser (Chrome, Firefox, Safari, or Edge)
+* Internet connection
+
+#### Accessing the Applicatio
+Open your web browser.
+Navigate to **[insert your application's URL here].**
+The application should load automatically.
+
+##### Using the Application
+
+##### Basic Search
+* In the search box, type the name of a train line or a route you want to find.
+* Click the "Search" button or press Enter.
+* Results will appear below the search box.
+
+##### Wildcard Search
+You can use '*' as a wildcard in your search. To find line name or route:
+* starting with "London": Type "London*" and search.
+* starting with "A": Type "A*" and search.
+* ending with "Express": Type "*Express" and search.
+* containing "West": Type "*West*" and search.
+
+ 
+##### Wildcard Search
+You can select 'OR' or 'AND' in your search. 
+* Use any of the options listed under wildcard search
+* select OR for records that meet atleast one of the entry criteria in the user input fields
+* select AND for records that meet both of the entry criteria  user input fields
+
+##### Reading Search Results
+Results are displayed on screen in table format
+Each record shows the line name and its route.
+If no results are found, you'll see a message indicating "No Results Found".
+
+##### Mobile Use
+* The application is works on smartphones and tablets.
+* Simply access the same URL on your mobile device's browser.
+
+###### Troubleshooting
+
+* No Results Found
+ * Check your spelling.
+ * Try using wildcards for a broader search.
+ * Ensure you're connected to the internet.
+
+* Page Not Loading
+ * Check your internet connection.
+ * Try refreshing the page.
+ * Clear your browser cache and try again.
+
+## Feedback and Support
+If you encounter any issues or have suggestions for improvement, please contact us page **[insert contact email/form here].**
+
+## Privacy Notice
+This application does not collect or store any personal data. All searches are performed client-side and no information is sent to our servers.
+
+## Updates and Maintenance
+We regularly update our train line database. If you notice any outdated information, please use the email us at **let us know.**
