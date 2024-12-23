@@ -90,3 +90,7 @@ This application does not collect or store any personal data. All searches are p
 
 ## Updates and Maintenance
 We regularly update our train line database. If you notice any outdated information, please use the email us at **let us know.**
+
+
+### Project Management
+For the Train Line Information Search Application, an incremental linear approach was employed using GitHub Projects to streamline development. This structured methodology involved upfront requirements gathering, incremental feature development, and rigorous testing of each component before progression. Visual task tracking through a Kanban board facilitated risk management and error detection, enabling quicker delivery of functional prototypes and simplified testing of smaller, manageable increments. The combination of structured workflows and iterative refinement ensured the effective and collaborative development of the application while maintaining flexibility for enhancements.
