@@ -174,14 +174,16 @@ Throughout the development of the Train Line Information Search Application, I a
 ** Figma Prototype**
 In my organisation, more than one project designs option go through the option selection review. Green is the best and orange is alternative. Any other option will be categorised as red. In the light of this, I  used Figma to create two design options. The design process involved creating interactive prototypes for each concept, allowing for a more realistic representation of the user experience. These prototypes simulated key functionalities such as the alphabet-based search and result display, providing a clearer vision of how users would interact with the application. While ideally, a user survey would be conducted to gather quantitative feedback, the current busy period in train infrastructure management and timetabling necessitated a more expedient approach. Instead, I opted for a visual check with colleagues, for a quick response turnaround to make a timely decision. 
 
-### **Tesing**
+### **Testing**
 For the Train Line Information Search Application, I employed a manual testing strategy to ensure that all functionalities operated as intended. This process involved creating a structured form that listed various actions and their expected results, allowing users to respond with "pass" or "fail" for each function tested.
 
 #### Manual Testing Process
 
 ### Testing
 
-For the Train Line Information Search Application, I employed a manual testing strategy to ensure that all functionalities operated as intended. This process involved creating a structured form that listed various actions and their expected results, allowing users to respond with "pass" or "fail" for each function tested.
+I conducted both manual and automated testing to ensure all functionalities worked as intended. Manual testing involved structured forms listing actions and expected results for validation. Automated unit testing, using Jest and jsdom, focused on key features like API integration and search functionality (api.test.js and search.test.js).
+
+Despite challenges installing Node.js on a restricted device, the tests identified and resolved errors effectively. All tests passed, confirming feature reliability.
 
 #### Manual Testing Process
 
