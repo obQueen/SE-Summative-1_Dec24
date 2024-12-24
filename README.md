@@ -212,6 +212,13 @@ By focusing on manual testing and user feedback, I was able to create an effecti
 
 To evaluate and improve the quality of the web application, I used Google Lighthouse, an open-source tool designed to provide detailed insights into webpage performance. Lighthouse assesses four key areas: Performance, which examines loading speed and responsiveness; Accessibility, which considers how easily users with disabilities can navigate the site; Best Practices, which ensures compliance with current web development standards; and SEO (Search Engine Optimization), which analyses factors that enhance the site’s visibility in search engines.
 
+### **Unit Testing **
+
+Unit testing, defined as testing “the smallest functional unit of code” (AWS, 2024), was conducted for the "Train Line Information App" using Jest. Following an incremental lifecycle model, the tests ensured each feature, including the `performSearch` function, worked correctly before advancing to subsequent stages. This function, which filters train lines based on user input and updates the DOM, was tested for input validation, AND/OR search functionality, and cases with no matches.
+
+The test suite utilised `jsdom` for DOM simulation, `beforeEach` for a clean test environment, and mock train line data to replicate real-world scenarios. API integration and search functionality were validated through `api.test.js`, `search.test.js`, and a `package.json` file. Commands such as `npx jest api.test.js` and `npx jest search.test.js` were executed to ensure functionality. Despite initial challenges installing Node.js on a restricted device, all tests passed, confirming reliability and supporting the development of programming skills.
+**PICTURE OF NPX CODE**
+
 ### **Results**
 The application achieved an outstanding performance score of 99, indicating exceptional optimization for fast loading times, which significantly enhances user experience and minimizes bounce rates. The accessibility score of 84 reflects a solid commitment to usability, ensuring that users of all abilities can navigate the site effectively. The design features contrasting colors and clear labels, promoting intuitive interaction.
 
