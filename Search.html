@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Train Lines Names/Route</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+    <script>
+        // JavaScript function to go back to the previous page
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</head>
+<body>
+    <!-- Vertical Menu -->
+    <nav class="vertical-menu">
+        <a href="index.html">Home</a>
+        <a href="ContactUs.html">Contact Us</a>
+        <a href="Search.html">Search</a>
+    </nav>
+
+    <main>
+        <header>
+            <h1>Search Train Lines</h1>
+            <p>Enter a line name and/or route to search.</p>
+        </header>
+
+        <section id="search-section">
+            <label for="lineNameInput">Line Name:</label>
+            <input type="text" id="lineNameInput" placeholder="Enter line name (use * or % as wildcard)">
+            
+            <label for="routeInput">Route:</label>
+            <input type="text" id="routeInput" placeholder="Enter route (use * or % as wildcard)">
+
+            <label for="searchType">Search Type:</label>
+            <select id="searchType">
+                <option value="OR">OR</option>
+                <option value="AND">AND</option>
+            </select>
+
+            <button id="searchButton">Search</button>
+        </section>
+
+        <div id="searchResults"></div>
+
+        <div class="button-container">
+            <button onclick="goBack()">Back</button>
+            <a href="index.html" class="button-link">Home</a>
+            <a href="ContactUs.html" class="button-link">Contact Us</a>
+        </div>
+    
+
+        <br>
+    </main>
+
+    <script src="script.js"></script> <!-- Load main JavaScript -->
+    <script src="search.js"></script> <!-- Load search functionality -->
+</body>
+</html>
